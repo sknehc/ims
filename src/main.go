@@ -12,7 +12,7 @@ func main() {
 	var serverIp string
 	var serverPort string
 
-	flag.StringVar(&mode, "mode", "client", "")
+	flag.StringVar(&mode, "mode", "server", "")
 	flag.StringVar(&serverIp, "ip", "127.0.0.1", "")
 	flag.StringVar(&serverPort, "port", "8523", "")
 	flag.Parse()
